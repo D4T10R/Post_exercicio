@@ -61,11 +61,11 @@ public class Post {
 
     // METODOS
     public String toString() {
-        return title +
-               "\n" + likes + " - " + moment +
-               "\n" + content +
-               "Comments: " +
-               "\n " + comment;
+        return "\n " + title +
+               "\n " + likes + " - " + moment +
+               "\n " + content +
+               "\n Comments: " +
+               comment.toString();
     }
     // METODOS
 
